@@ -1,0 +1,491 @@
+{
+  "D": 3,
+  "demo_beta": 0.2,
+  "demo_leaves": {
+    "8": {
+      "pred": "Benign",
+      "idk": false,
+      "count": 70,
+      "active": true
+    },
+    "9": {
+      "pred": "Malignant",
+      "idk": false,
+      "count": 10,
+      "active": true
+    },
+    "10": {
+      "pred": "IDK",
+      "idk": true,
+      "count": 7,
+      "active": true
+    },
+    "11": {
+      "pred": "Malignant",
+      "idk": false,
+      "count": 8,
+      "active": true
+    },
+    "12": {
+      "pred": "Benign",
+      "idk": false,
+      "count": 4,
+      "active": true
+    },
+    "13": {
+      "pred": "IDK",
+      "idk": true,
+      "count": 5,
+      "active": true
+    },
+    "14": {
+      "pred": "Benign",
+      "idk": false,
+      "count": 9,
+      "active": true
+    },
+    "15": {
+      "pred": "Malignant",
+      "idk": false,
+      "count": 37,
+      "active": true
+    }
+  },
+  "demo_metrics": {
+    "coverage": 92.0,
+    "acc_decided": 99.28,
+    "acc_overall": 91.33,
+    "n_idk": 12,
+    "TP": 49,
+    "TN": 88,
+    "FP": 0,
+    "FN": 1
+  },
+  "demo_splits": {
+    "1": {
+      "feat": "concave_pts_mean",
+      "thr": 0.0555
+    },
+    "2": {
+      "feat": "area_worst",
+      "thr": 876.5
+    },
+    "3": {
+      "feat": "concave_pts_worst",
+      "thr": 0.1374
+    },
+    "4": {
+      "feat": "radius_worst",
+      "thr": 16.5
+    },
+    "5": {
+      "feat": "texture_worst",
+      "thr": 25.1
+    },
+    "6": {
+      "feat": "perimeter_worst",
+      "thr": 105.0
+    },
+    "7": {
+      "feat": "area_worst",
+      "thr": 1200.0
+    }
+  },
+  "n": 150,
+  "opt_beta": 0.2,
+  "p": 5,
+  "sweep": [
+    {
+      "acc_decided": 100.0,
+      "acc_overall": 88.0,
+      "beta": 0.1,
+      "coverage": 88.0,
+      "leaves": {
+        "10": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "11": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "12": {
+          "count": 5,
+          "idk": false,
+          "pred": "Benign"
+        },
+        "13": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "14": {
+          "count": 46,
+          "idk": false,
+          "pred": "Malignant"
+        },
+        "15": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "8": {
+          "count": 89,
+          "idk": false,
+          "pred": "Benign"
+        },
+        "9": {
+          "count": 10,
+          "idk": false,
+          "pred": "Malignant"
+        }
+      },
+      "n_idk": 18
+    },
+    {
+      "acc_decided": 99.27536231884058,
+      "acc_overall": 91.33333333333333,
+      "beta": 0.2,
+      "coverage": 92.0,
+      "leaves": {
+        "10": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "11": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "12": {
+          "count": 5,
+          "idk": false,
+          "pred": "Benign"
+        },
+        "13": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "14": {
+          "count": 46,
+          "idk": false,
+          "pred": "Malignant"
+        },
+        "15": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "8": {
+          "count": 89,
+          "idk": false,
+          "pred": "Benign"
+        },
+        "9": {
+          "count": 10,
+          "idk": false,
+          "pred": "Malignant"
+        }
+      },
+      "n_idk": 12
+    },
+    {
+      "acc_decided": 97.33333333333333,
+      "acc_overall": 97.33333333333333,
+      "beta": 0.3,
+      "coverage": 100.0,
+      "leaves": {
+        "10": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "11": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "12": {
+          "count": 5,
+          "idk": false,
+          "pred": "Benign"
+        },
+        "13": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "14": {
+          "count": 46,
+          "idk": false,
+          "pred": "Malignant"
+        },
+        "15": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "8": {
+          "count": 89,
+          "idk": false,
+          "pred": "Benign"
+        },
+        "9": {
+          "count": 10,
+          "idk": false,
+          "pred": "Malignant"
+        }
+      },
+      "n_idk": 0
+    },
+    {
+      "acc_decided": 97.33333333333333,
+      "acc_overall": 97.33333333333333,
+      "beta": 0.4,
+      "coverage": 100.0,
+      "leaves": {
+        "10": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "11": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "12": {
+          "count": 5,
+          "idk": false,
+          "pred": "Benign"
+        },
+        "13": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "14": {
+          "count": 46,
+          "idk": false,
+          "pred": "Malignant"
+        },
+        "15": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "8": {
+          "count": 89,
+          "idk": false,
+          "pred": "Benign"
+        },
+        "9": {
+          "count": 10,
+          "idk": false,
+          "pred": "Malignant"
+        }
+      },
+      "n_idk": 0
+    },
+    {
+      "acc_decided": 97.33333333333333,
+      "acc_overall": 97.33333333333333,
+      "beta": 0.5,
+      "coverage": 100.0,
+      "leaves": {
+        "10": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "11": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "12": {
+          "count": 5,
+          "idk": false,
+          "pred": "Benign"
+        },
+        "13": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "14": {
+          "count": 46,
+          "idk": false,
+          "pred": "Malignant"
+        },
+        "15": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "8": {
+          "count": 89,
+          "idk": false,
+          "pred": "Benign"
+        },
+        "9": {
+          "count": 10,
+          "idk": false,
+          "pred": "Malignant"
+        }
+      },
+      "n_idk": 0
+    },
+    {
+      "acc_decided": 98.0,
+      "acc_overall": 98.0,
+      "beta": 0.6,
+      "coverage": 100.0,
+      "leaves": {
+        "10": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "11": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "12": {
+          "count": 5,
+          "idk": false,
+          "pred": "Benign"
+        },
+        "13": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "14": {
+          "count": 46,
+          "idk": false,
+          "pred": "Malignant"
+        },
+        "15": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "8": {
+          "count": 89,
+          "idk": false,
+          "pred": "Benign"
+        },
+        "9": {
+          "count": 10,
+          "idk": false,
+          "pred": "Malignant"
+        }
+      },
+      "n_idk": 0
+    },
+    {
+      "acc_decided": 97.33333333333333,
+      "acc_overall": 97.33333333333333,
+      "beta": 0.7,
+      "coverage": 100.0,
+      "leaves": {
+        "10": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "11": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "12": {
+          "count": 5,
+          "idk": false,
+          "pred": "Benign"
+        },
+        "13": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "14": {
+          "count": 46,
+          "idk": false,
+          "pred": "Malignant"
+        },
+        "15": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "8": {
+          "count": 89,
+          "idk": false,
+          "pred": "Benign"
+        },
+        "9": {
+          "count": 10,
+          "idk": false,
+          "pred": "Malignant"
+        }
+      },
+      "n_idk": 0
+    },
+    {
+      "acc_decided": 97.33333333333333,
+      "acc_overall": 97.33333333333333,
+      "beta": 0.8,
+      "coverage": 100.0,
+      "leaves": {
+        "10": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "11": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "12": {
+          "count": 5,
+          "idk": false,
+          "pred": "Benign"
+        },
+        "13": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "14": {
+          "count": 46,
+          "idk": false,
+          "pred": "Malignant"
+        },
+        "15": {
+          "count": 0,
+          "idk": false,
+          "pred": "none"
+        },
+        "8": {
+          "count": 89,
+          "idk": false,
+          "pred": "Benign"
+        },
+        "9": {
+          "count": 10,
+          "idk": false,
+          "pred": "Malignant"
+        }
+      },
+      "n_idk": 0
+    }
+  ]
+}
