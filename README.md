@@ -178,7 +178,6 @@ python3 visualize_oct_idk.py
 
 **Wisconsin Breast Cancer Dataset** — 569 samples, 30 features (radius, texture, perimeter, area, smoothness etc. — mean, SE, and worst). Source: UCI Machine Learning Repository.
 
-Place `breast_cancer.csv` in the project root before running.
 
 ---
 
